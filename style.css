@@ -8,24 +8,28 @@
 
 body {
     font-family: 'Manrope', sans-serif;
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url("images/bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
 }
 
 h1 {
-    font-size: 50px;
-    text-transform: uppercase;
-}
-
-h2 {
     font-size: 30px;
     color: #FE0000;
 }
+
+h2 {
+    font-size: 24px;
+}
  
 h3 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 h5 {
@@ -33,7 +37,7 @@ h5 {
 }
 
 h1, h2, h3, h4, h5 {
-    font-weight: 700;
+    font-weight: 600;
 } 
 
 label, span {
@@ -69,6 +73,10 @@ hr {
 .form-control:focus {
     box-shadow: none;
     border: 1px solid #FE0000;
+}
+
+.form-control[readonly] {
+    background: transparent;
 }
 
 .date {
@@ -112,13 +120,9 @@ hr {
     
 }
 
-@media (max-width: 992px) {
+@media (max-width: 576px) {
     body {
         height: 100%;
-    }
-    h1 {
-        font-size: 40px;
-        text-transform: uppercase;
     }
 }
 
