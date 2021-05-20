@@ -121,8 +121,6 @@ hr {
 }
 
 @media (max-width: 576px) {
-    body {
-        height: 100%;
-    }
+    
 }
 
