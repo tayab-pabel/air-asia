@@ -52,22 +52,22 @@ function getQuantityNumber (airClass) {
 
 // Book Now Button Event Handler
 const bookNowBtn = document.getElementById('book-now');
-bookNowBtn.addEventListener('click', function() {
-const bookingArea = document.getElementById('booking-area');
-bookingArea.style.display = 'none';
-const bookingConfirmationArea = document.getElementById('booking-confirmation-area');
-bookingConfirmationArea.style.display = 'block';
-document.getElementsByTagName('BODY').style.height = '100vh';
+    bookNowBtn.addEventListener('click', function() {
+    const bookingArea = document.getElementById('booking-area');
+    bookingArea.style.display = 'none';
+    const bookingConfirmationArea = document.getElementById('booking-confirmation-area');
+    bookingConfirmationArea.style.display = 'block';
+    document.getElementsByTagName('BODY').style.height = '100vh';
 
-const flyingForm = document.getElementById('flying-form').value;
-document.getElementById('show-flying-from').innerText = flyingForm;
+    const flyingForm = document.getElementById('flying-form').value;
+    document.getElementById('show-flying-from').innerText = flyingForm;
 
-const flyingTo = document.getElementById('flying-to').value;
-document.getElementById('show-flying-to').innerText = flyingTo;
+    const flyingTo = document.getElementById('flying-to').value;
+    document.getElementById('show-flying-to').innerText = flyingTo;
 
-const departureDate = document.getElementById('departure-date').value;
-document.getElementById('show-departure').innerText = departureDate;
+    const departureDate = document.getElementById('departure-date').value;
+    document.getElementById('show-departure').innerText = departureDate;
 
-const returnDate = document.getElementById('return-date').value;
-document.getElementById('show-return').innerText = returnDate;
+    const returnDate = document.getElementById('return-date').value;
+    document.getElementById('show-return').innerText = returnDate;
 })
