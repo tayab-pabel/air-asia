@@ -1,4 +1,4 @@
-# air-asia 
+# Air Asia
 ## ([Live Preview](https://tayab-pabel.github.io/air-asia/))
 ## Features
    - It's a vanilla js project.
