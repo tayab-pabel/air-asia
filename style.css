@@ -17,7 +17,6 @@ body {
 
 h1 {
     font-size: 28px;
-    color: #FE0000;
 }
 
 h2 {
@@ -51,6 +50,11 @@ label {
 hr {
     margin-top: 5px;
     margin-bottom: 10px;
+}
+
+h1, 
+.booking-alert {
+    color: #FE0000;
 }
 
 .logo {
