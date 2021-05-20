@@ -57,7 +57,7 @@ const bookingArea = document.getElementById('booking-area');
 bookingArea.style.display = 'none';
 const bookingConfirmationArea = document.getElementById('booking-confirmation-area');
 bookingConfirmationArea.style.display = 'block';
-document.getElementsByTagName('BODY').style.height = '100vh!important';
+document.getElementsByTagName('BODY').style.height = '100vh';
 
 const flyingForm = document.getElementById('flying-form').value;
 document.getElementById('show-flying-from').innerText = flyingForm;
